@@ -12,7 +12,8 @@ I’m not publishing this package to NPM because it doesn’t serve much purpose
 
 1. Make sure you have Node.js installed
 2. Download or `git clone` this repo to your machine
-3. Run `npm link` in the directory
+3. Run `npm install` in the directory ot install dependencies
+4. Run `npm link` in the directory to make the tool available globally
 
 ## Use
 
