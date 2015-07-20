@@ -3,9 +3,25 @@
   "version": "1.0.0",
   "description": "CLI tool for checking if Apple has refurb displays available.",
   "main": "index.js",
+  "bin": {
+    "refurb-display": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cory Reed <swashcap@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "cheerio": "^0.19.0",
+    "request": "^2.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swashcap/refurb-apple-display-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/swashcap/refurb-apple-display-cli/issues"
+  },
+  "homepage": "https://github.com/swashcap/refurb-apple-display-cli"
 }
