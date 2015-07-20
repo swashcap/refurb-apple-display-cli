@@ -2,10 +2,10 @@
   "name": "refurb-apple-display-cli",
   "version": "1.0.0",
   "description": "CLI tool for checking if Apple has refurb displays available.",
-  "main": "index.js",
   "bin": {
     "refurb-display": "index.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
