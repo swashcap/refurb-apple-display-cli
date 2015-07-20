@@ -1,4 +1,4 @@
-#! /user/bin/env node
+#! /usr/bin/env node
 
 var request = require('request');
 var cheerio = require('cheerio');
