@@ -14,7 +14,7 @@ request(
             console.error(res.statusCode);
             return;
         }
-        
+
         var $ = cheerio.load(body);
         var displaysLink =
             $('#navigation ul')
@@ -24,12 +24,11 @@ request(
                     return $(this).text().indexOf('Displays') !== -1;
                 })
                 .find('a');
-        
+
         if (displaysLink.length > 0) {
-            console.log(chalk.green('Apple refurb displays available!'));
+            console.log(chalk.green('✔ Apple refurb displays available!'));
         } else {
-            console.log(chalk.red('No Apple refurb displays for sale.'));
+            console.log(chalk.red('✘ No Apple refurb displays for sale.'));
         }
     }
 );
-
